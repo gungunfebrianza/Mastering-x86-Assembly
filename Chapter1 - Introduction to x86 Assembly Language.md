@@ -74,6 +74,11 @@ mov X,eax ; Pindahkan EAX ke X
 <h3>Are There Rules in Assembly Language?</h3>
 <p>Aturan dalam penggunaan <i><strong>Assembly Language</strong></i> didasari oleh <i><strong>Physical Limitations</strong></i> dari target processor dan <i><strong>Machine Language</strong></i> itu sendiri. Sebagai contoh pada sebuah CPU dibutuhkan dua instruksi operan dengan ukuran yang sama. <i><strong>Assembly Language</strong></i> mempunyai sedikit aturan, berbeda dengan C++ atau Java karena aturan penggunaan sintaknya mampu mengurangi kesalahan logika yang tidak diinginkan dengan mengorbankan akses data tingkat rendah. <i><strong>Assembly Language Programmer</strong></i> dapat dengan mudah melewati karakteristik pembatasan pada <i><strong>High Level Language Programming</strong></i>, sebagai contoh pada Java yang tidak mengizinkan kita untuk dapat mengakses alamat memori tertentu secara spesifik sedangkan dengan <i><strong>Assembly Language</strong></i> kita bisa secara langsung mengakses alamat memori tertentu.</p>
 
+<h3>Assembly Language Application</h3>
+<p>Di awal-awal dunia pemograman, kebanyakan aplikasi ditulis secara sebagian sebagian atau seluruhnya menggunakan <i><strong>Assembly Language</strong></i>, karena kemampuanya yang pas untuk memori yang memiliki kapasitas terbatas sehingga bisa berjalan secara efektif dalam processor yang memiliki kecepatan lamban. Saat <i><strong>Memory</strong></i> menjadi semakin meningkat kapasitasnya begitu juga dengan <i><strong>Processor</strong></i> yang secara dramatis kecepatanya meningkat maka program program yang dibuatpun menjadi semakin kompleks. Banyak programmer berpindah ke bahasa yang lebih tinggi seperti bahasa C, Fotran dan Cobol yang memiliki kemampuan yang lebih baik, kemudian muncul bahasa pemograman berorientasi objek seperti Python, C++, C# dan Java yang memiliki kemampuan untuk membuat sebuah program complex yang mengandung jutaan baris code.</p>
+
+<p></p>
+
 <i><strong></strong></i>
 
 <ul>
@@ -138,6 +143,52 @@ mov X,eax ; Pindahkan EAX ke X
 <li>Hardware Manufacturers</li>
 <li>Device Driver</li>
 <li>General Operating System Command</li>
+<li>Physical Limitations</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 <li></li>
 <li></li>
