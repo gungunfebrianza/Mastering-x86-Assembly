@@ -61,12 +61,24 @@ mov X,eax ; Pindahkan EAX ke X
 <p>Sebuah bahasa yang <i><strong>Source Code</strong></i> programnya bisa dikompilasi dan berjalan dihampir semua sistem komputer maka ia dikatakan <i><strong>Portable</strong></i>. <i><strong>Assembly Language</strong> adalah bahasa yang tidak <i><strong>Portable</strong></i> karena ini didesain secara khusus untuk <i><strong>Processor Family</strong></i> tertentu. Ada beberapa perbedaan pada <i><strong>Assembly Language</strong> yang digunakan saat ini mengacu pada setiap <i><strong>Processor Family</strong></i> itu sendiri. Beberapa <i><strong>Processor Family</strong></i> yang terkenal adalah Motorola 68x00, x86, SUN Sparc, Vax, dan IBM-370, setiap instruksi dari <i><strong>Assembly Language</strong> secara langsung akan sama pada <i><strong>Computer Architecture</strong> yang dituju atau akan diterjemahkan terlebih dahulu saat proses eksekusi menggunakan sebuah program Pocessor yang disebut dengan <i><strong>Microcode Interpreter</strong>.</p>
 
 <h3>Why Learn Assembly Language?</h3>
-<p></p>
-
+<ol>
+<p>Advantages</p>
+<li>Jika kita seorang computer engineer yang sedang menuntut ilmu dengan bidang <i><strong>Computer Engineering</strong></i>. Kita akan sering membuat sebuah <i><strong>Embedded Programs</strong></i>, sebuah program pendek yang disimpan didalam memori dengan ukuran yang sangat kecil dan terbatas untuk membuat sebuah alat tertentu seperti Telephones, Automobile Fuel & Ignition Systems, Air-conditioning Control Systems, Security Systems, Data Acquisition Instruments, Video Cards, Sound Cards, Hard Drives, Modems, dan Printers. <i><strong>Assembly Language</strong> sangat ideal jika digunakan untuk membuat sebuah  <i><strong>Embedded Programs</strong></i> dikarenakan hemat dalam penggunaan memory. </li>
+<li><i><strong>Real-Time Application</strong></i> yang berinteraksi dengan <i><strong>Simulation and Hardware Monitoring</strong></i> memerlukan <i><strong>Timing and Responses</strong></i> yang tepat. <i><strong>High Level Language Programming</strong></i> tidak memberikan kesempatan pada Programmer untuk melakukan kontrol secara tepat melalui <i><strong>Native Machine Code</strong></i> yang dihasilkan sebuah <i><strong>Compiler</strong></i>. <i><strong>Assembly Language</strong></i>.</li>
+<li>Pada Game Komputer secara khusus diperlukan optimasi agar kode yang dibuat ukuranya bisa kecil agar eksekusi bisa dilakukan dengan cepat. Game Programmer yang sudah mahir atau expert akan mengambil manfaat penuh dari kemampuan hardware yang akan menjadi target sistemnya menggunakan <i><strong>Assembly Language</strong> karena sanggup untuk mengakses secara langsung kedalam <i><strong>Hardware Computer</strong></i> dan kode bisa dioptimasi agar eksekusi menjadi sangat cepat.</li>
+<li><i><strong>Assembly Language</strong> membantu kita untuk meningkatkan pemahaman secara menyeluruh tentang interaksi antara <i><strong>Computer Hardwares</strong></i>, <i><strong>Operating Systems</strong></i> dan <i><strong>Application Programs</strong></i>. Dengan <i><strong>Assembly Language</strong></i> kita bisa menerapkan dan menguji informasi secara teoritis yang telah/sedang kita pelajari dalam keilmuan <i><strong>Computer Architecture</strong></i> dan <i><strong>Operating System</strong></i>.</li>
+<li>Beberapa bahasa pemograman tingkat tinggi atau <i><strong>High Level Language Programming</strong></i> memiliki abstract dalam representasi datanya sehingga sulit sekali untuk melakukan <i><strong>Bit Manipulation</strong></i>.</li>
+Hardware manufacturers create device drivers for the equipment they sell. Device drivers
+are programs that translate general operating system commands into specific references to
+hardware details. Printer manufacturers, for example, create a different MS-Windows device
+driver for each model they sell. Often these device drivers contain significant amounts of
+assembly language code.
+<li>Industri perangkat keras atau <i><strong>Hardware manufacturers</strong></i> membuat sebuah </li>
+</ol>
 <i><strong></strong></i>
 
 <ul>
-Glossary :
+<p><strong>Glossary :</strong></p>
 <li>Assembly Language</li>
 <li>x86 Processor</li>
 <li>Microprocessor</li>
@@ -120,6 +132,12 @@ Glossary :
 <li>Portable</li>
 <li>Processor Family</li>
 <li>Microcode Interpreter</li>
+<li>Computer Engineering</li>
+<li>Simulation and Hardware Monitoring</li>
+<li>Timing and Responses</li>
+<li>Bit Manipulation</li>
+<li>Hardware manufacturers</li>
+<li></li>
 <li></li>
 <li></li>
 <li></li>
