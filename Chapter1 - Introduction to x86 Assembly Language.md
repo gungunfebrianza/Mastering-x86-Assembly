@@ -26,15 +26,17 @@
 <ol>
 <li>Prinsip dasar <i><strong>Computer Architecture</strong></i> yang diterapkan pada <i><strong>x86 Processors</strong></i>.</li>
 <li>Dasar <i><strong>Boolean Logic</strong></i> dan penerapanya dalam pemograman dan <i><strong>Hardware Computer</strong></i>.</li>
-<li>Bagaimana sebuah i><strong>x86 Processors</strong></i> melakukan manajemen <i><strong>Memory</strong></i> menggunakan <i><strong>Protected Mode</strong></i> dan <i><strong>Virtual Mode</strong></i>.</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Bagaimana sebuah <i><strong>x86 Processors</strong></i> melakukan manajemen <i><strong>Memory</strong></i> menggunakan <i><strong>Protected Mode</strong></i> dan <i><strong>Virtual Mode</strong></i>.</li>
+<li>Bagaimana sebuah <i><strong>Compiler</strong></i> untuk <i><strong>High Level Language Programming</strong></i> seperti C++ diterjemahkan kedalam  <i><strong>Assembly Language</strong></i> dan <i><strong>Native Machine Code</strong></i>.</li>
+<li>Bagaimana sebuah <i><strong>High Level Language Programming</strong></i> mengimplementasikan sebuah <i><strong>Arithmetic Expressions</strong></i>, <i><strong>Loops</strong></i> dan <i><strong>Logical Structures</strong></i> pada <i><strong>Machine Level</strong></i>.</li>
+<li><i><strong>Data Representation</strong></i> termasuk <i><strong>Signed & Unsigned Integer, Real Number & Character</strong></i>.</li>
+<li>Bagaimana cara melakukan <i><strong>Debug</strong></i> pada <i><strong>Machine Level</strong></i>, kemampuan ini sangat dibutuhkan dan sangat vital jika kita menggunakan bahasa pemograman seperti c dan c++.  </li>
+<li>Bagaimana Sebuah <i><strong>Application Program</strong></i> berkomunikasi dengan <i><strong>Operating System</strong></i> pada sebuah komputer melalui <i><strong>Interupt Handlers</strong></i> dan <i><strong>System Calls</strong></i>.</li>
+<li>Bagaimana cara melakukan <i><strong>Interface</strong></i> dari <i><strong>Assembly Language</strong></i> ke C++ Program.</li>
+<li>Bagaimana cara membuat <i><strong>Application Programs</strong></i> menggunakan <i><strong>Assembly Language</strong></i>.</li>
 </ol>
+
+<i><strong></strong></i>
 
 <ul>
 Glossary :
@@ -68,7 +70,20 @@ Glossary :
 <li>Boolean Logic</li>
 <li>Protected Mode</li>
 <li>Virtual Mode</li>
-<li></li>
+<li>Compiler</li>
+<li>Native Machine Code</li>
+<li>Arithmetic Expressions</li>
+<li>Loops</li>
+<li>Logical Structures</li>
+<li>Machine Level</li>
+<li>Data Representation</li>
+<li>Signed & Unsigned Integer</li>
+<li>Real Number</li>
+<li>Character</li>
+<li>Debug</li>
+<li>Application Program</li>
+<li>Interupt Handlers</li>
+<li>System Calls</li>
 <li></li>
 <li></li>
 </ul>
