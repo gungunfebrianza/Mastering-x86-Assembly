@@ -46,7 +46,7 @@
 int Y;
 int X = (Y + 4) * 3;
 ```
-<p>Jika diterjemahkan kedalam <i><strong>Assembly Language</strong> maka dibutuhkan banyak statement code seperti dibawah ini :</p>
+<p>Jika diterjemahkan kedalam <i><strong>Assembly Language</strong></i> maka dibutuhkan banyak statement code seperti dibawah ini :</p>
 
 ```Assembly
 mov eax,Y ; Pindahkan Y ke EAX register
@@ -73,8 +73,12 @@ are programs that translate general operating system commands into specific refe
 hardware details. Printer manufacturers, for example, create a different MS-Windows device
 driver for each model they sell. Often these device drivers contain significant amounts of
 assembly language code.
-<li>Industri perangkat keras atau <i><strong>Hardware manufacturers</strong></i> membuat sebuah </li>
+<li>Industri perangkat keras atau <i><strong>Hardware manufacturers</strong></i> membuat sebuah <i><strong>Device Driver</strong></i> sebagai bagian dari peralatan dalam sistem komputer untuk dijual. <i><strong>Device Driver</strong></i> adalah sebuah program yang menterjemahkan <i><strong>General Operating System Command</strong></i> kedalam referensi spesifik sebuah hardware. Sebagai contoh pada Printer Manufacture, mereka membuat sebuah <i><strong>Device Driver</strong></i> yang berbeda-beda pada masing masing versi <i><strong>Microsoft Windows</strong></i>, seringkali setiap <i><strong>Device Driver</strong></i> didalamnya terdapat <i><strong>Assembly Language code</strong></i> dengan jumlah dan konten yang berbeda-beda.</li>
 </ol>
+
+<h3>Are There Rules in Assembly Language?</h3>
+<p></p>
+
 <i><strong></strong></i>
 
 <ul>
@@ -137,8 +141,8 @@ assembly language code.
 <li>Timing and Responses</li>
 <li>Bit Manipulation</li>
 <li>Hardware manufacturers</li>
-<li></li>
-<li></li>
+<li>Device Driver</li>
+<li>General Operating System Command</li>
 <li></li>
 <li></li>
 <li></li>
