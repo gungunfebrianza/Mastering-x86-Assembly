@@ -58,6 +58,10 @@ mov X,eax ; Pindahkan EAX ke X
 <p>Selanjutnya dari bahasa assembly akan diterjemahkan kedalam bahasa mesin dengan relasi satu ke satu, artinya dari setiap satu instruksi yang dibuat menggunakan bahasa assembly mengacu pada satu <i><strong>Machine-language Instruction</strong></i> yang selanjutnya menjadi sinyal listrik (<i><strong>Digital Signal</strong></i>). <i><strong>Register</strong></i> adalah nama sebuah lokasi didalam CPU yang menyimpan sebuah hasil sementara.</p>
 
 <h3>Is Assembly Language Portable?</h3>
+<p>Sebuah bahasa yang <i><strong>Source Code</strong></i> programnya bisa dikompilasi dan berjalan dihampir semua sistem komputer maka ia dikatakan <i><strong>Portable</strong></i>. <i><strong>Assembly Language</strong> adalah bahasa yang tidak <i><strong>Portable</strong></i> karena ini didesain secara khusus untuk <i><strong>Processor Family</strong></i> tertentu. Ada beberapa perbedaan pada <i><strong>Assembly Language</strong> yang digunakan saat ini mengacu pada setiap <i><strong>Processor Family</strong></i> itu sendiri. Beberapa <i><strong>Processor Family</strong></i> yang terkenal adalah Motorola 68x00, x86, SUN Sparc, Vax, dan IBM-370, setiap instruksi dari <i><strong>Assembly Language</strong> secara langsung akan sama pada <i><strong>Computer Architecture</strong> yang dituju atau akan diterjemahkan terlebih dahulu saat proses eksekusi menggunakan sebuah program Pocessor yang disebut dengan <i><strong>Microcode Interpreter</strong>.</p>
+
+<h3>Why Learn Assembly Language?</h3>
+<p></p>
 
 <i><strong></strong></i>
 
@@ -113,6 +117,9 @@ Glossary :
 <li>Integer</li>
 <li>Register</li>
 <li>Digital Signal</li>
+<li>Portable</li>
+<li>Processor Family</li>
+<li>Microcode Interpreter</li>
 <li></li>
 <li></li>
 <li></li>
