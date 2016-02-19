@@ -36,6 +36,29 @@
 <li>Bagaimana cara membuat <i><strong>Application Programs</strong></i> menggunakan <i><strong>Assembly Language</strong></i>.</li>
 </ol>
 
+<h3>How Does Assembly Language Relate to Machine Language?</h3>
+<p><i><strong>Machine Language</strong></i> adalah sebuah <i><strong>Numeric Language</strong></i> yang secara spesifik oleh computer processor (CPU). Seluruh <i><strong>x86 Processor</strong></i> memahami <i><strong>Machine Language</strong></i> secara umum. <i><strong>Assembly Language</strong></i> terdiri dari sekumpulan statement yang ditulis dengan tehnik <i><strong>Mnemonic</strong></i> seperti ADD, MOV, SUB dan CALL. <i><strong>Assembly Language</strong></i> mempunyai relasi satu-ke-satu (one to one) dengan <i><strong>Machine Language</strong></i> yang berarti setiap satu instruksi yang dibuat menggunakan <i><strong>Assembly Language</strong></i> mengacu pada satu <i><strong>Machine-language Instruction</strong></i>. </p>
+
+<h3>How Do C++ and Java Relate to Assembly Language?</h3>
+<p><i><strong>High Level Language Programming</strong></i> seperti c, c++, python dan java mempunyai satu-ke-banyak (one to many) relasi dengan <i><strong>Assembly Language</strong></i> dan <i><strong>Machine Language</strong></i>. Sebuah Statement satu baris yang dibuat menggunakan C++ akan mengembang jika diterjemahkan kedalam <i><strong>Assembly Language</strong></i> dan <i><strong>Machine-language Instruction</strong></i>. Dibawah ini adalah dua buah statement dengan C++ code yang didalamnya terdapat <i><strong>Arithmetic Operation</strong></i> dan hasilnya ditetapkan kedalam sebuah <i><strong>Variable</strong></i> dengan asumsi X dan Y adalah <i><strong>Integer</strong></i> :</p>
+
+```C++
+int Y;
+int X = (Y + 4) * 3;
+```
+<p>Jika diterjemahkan kedalam <i><strong>Assembly Language</strong> maka dibutuhkan banyak statement code seperti dibawah ini :</p>
+
+```Assembly
+mov eax,Y ; Pindahkan Y ke EAX register
+add eax,4 ; Tambah nilai 4 ke EAX register
+mov ebx,3 ; Pindahkan 3 ke EBX register
+imul ebx ; Kalikan EAX dengan EBX
+mov X,eax ; Pindahkan EAX ke X
+```
+<p>Selanjutnya dari bahasa assembly akan diterjemahkan kedalam bahasa mesin dengan relasi satu ke satu, artinya dari setiap satu instruksi yang dibuat menggunakan bahasa assembly mengacu pada satu <i><strong>Machine-language Instruction</strong></i> yang selanjutnya menjadi sinyal listrik (<i><strong>Digital Signal</strong></i>). <i><strong>Register</strong></i> adalah nama sebuah lokasi didalam CPU yang menyimpan sebuah hasil sementara.</p>
+
+<h3>Is Assembly Language Portable?</h3>
+
 <i><strong></strong></i>
 
 <ul>
@@ -84,6 +107,16 @@ Glossary :
 <li>Application Program</li>
 <li>Interupt Handlers</li>
 <li>System Calls</li>
+<li>Mnemonic</li>
+<li>Machine-language Instruction</li>
+<li>Arithmetic Operation</li>
+<li>Integer</li>
+<li>Register</li>
+<li>Digital Signal</li>
+<li></li>
+<li></li>
 <li></li>
 <li></li>
 </ul>
+
+<p>Source : Assembly Language for X86 Processor - Kiv Irvine</p>
