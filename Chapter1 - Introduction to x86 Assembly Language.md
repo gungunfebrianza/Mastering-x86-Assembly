@@ -76,13 +76,15 @@ mov X,eax ; Pindahkan EAX ke X
 
 <h3>1.1.12 Assembly Language Application</h3>
 <p>Di awal-awal dunia pemograman, kebanyakan aplikasi ditulis secara sebagian sebagian atau seluruhnya menggunakan <i><strong>Assembly Language</strong></i>, karena kemampuanya yang pas untuk memori yang memiliki kapasitas terbatas sehingga bisa berjalan secara efektif dalam processor yang memiliki kecepatan lamban. Saat <i><strong>Memory</strong></i> menjadi semakin meningkat kapasitasnya begitu juga dengan <i><strong>Processor</strong></i> yang secara dramatis kecepatanya meningkat maka program program yang dibuatpun menjadi semakin kompleks. Banyak programmer berpindah ke bahasa yang lebih tinggi seperti bahasa C, Fotran dan Cobol yang memiliki kemampuan yang lebih baik, kemudian muncul bahasa pemograman berorientasi objek seperti Python, C++, C# dan Java yang memiliki kemampuan untuk membuat sebuah program complex yang mengandung jutaan baris code.</p>
-It is rare to see large application programs coded completely in assembly language because
-they would take too much time to write and maintain. Instead, assembly language is used to optimize
-certain sections of application programs for speed and to access computer hardware.
-Table 1-1 compares the adaptability of assembly language to high-level languages in relation to
-various types of applications.
 
-<p></p>
+<p>Jadi sangat langka jika ada sebuah aplikasi skala besar yang diprogram  menggunakan <i><strong>Assembly Language</strong></i> karena ini akan menyita waktu yang sangat lama saat proses coding dan pemeliharaan kode untuk pengembangan selanjutnya. Sehingga <i><strong>Assembly Language</strong></i> lebih digunakan untuk optimasi bagian tertentu didalam sebuah aplikasi untuk kecepatan dam akses secara langsung kedalam <i><strong>Hardware Computer</strong></i>. Dibawah ini adalah sebuah table yang membandingkan penyesuaian <i><strong>Assembly Language</strong></i> ke <i><strong>High Level Language Programming</strong></i> dari segi perbedaan tipe dalam pengaplikasianya.</p>
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 <i><strong></strong></i>
 
