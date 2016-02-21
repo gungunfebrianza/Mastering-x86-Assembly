@@ -77,14 +77,15 @@ mov X,eax ; Pindahkan EAX ke X
 <h3>1.1.12 Assembly Language Application</h3>
 <p>Di awal-awal dunia pemograman, kebanyakan aplikasi ditulis secara sebagian sebagian atau seluruhnya menggunakan <i><strong>Assembly Language</strong></i>, karena kemampuanya yang pas untuk memori yang memiliki kapasitas terbatas sehingga bisa berjalan secara efektif dalam processor yang memiliki kecepatan lamban. Saat <i><strong>Memory</strong></i> menjadi semakin meningkat kapasitasnya begitu juga dengan <i><strong>Processor</strong></i> yang secara dramatis kecepatanya meningkat maka program program yang dibuatpun menjadi semakin kompleks. Banyak programmer berpindah ke bahasa yang lebih tinggi seperti bahasa C, Fotran dan Cobol yang memiliki kemampuan yang lebih baik, kemudian muncul bahasa pemograman berorientasi objek seperti Python, C++, C# dan Java yang memiliki kemampuan untuk membuat sebuah program complex yang mengandung jutaan baris code.</p>
 
-<p>Jadi sangat langka jika ada sebuah aplikasi skala besar yang diprogram  menggunakan <i><strong>Assembly Language</strong></i> karena ini akan menyita waktu yang sangat lama saat proses coding dan pemeliharaan kode untuk pengembangan selanjutnya. Sehingga <i><strong>Assembly Language</strong></i> lebih digunakan untuk optimasi bagian tertentu didalam sebuah aplikasi untuk kecepatan dam akses secara langsung kedalam <i><strong>Hardware Computer</strong></i>. Dibawah ini adalah sebuah table yang membandingkan penyesuaian <i><strong>Assembly Language</strong></i> ke <i><strong>High Level Language Programming</strong></i> dari segi perbedaan tipe dalam pengaplikasianya.</p>
+<p>Jadi sangat langka jika ada sebuah aplikasi dlaam bentuk skala besar yang diprogram  menggunakan <i><strong>Assembly Language</strong></i> karena ini akan menyita waktu yang sangat lama saat proses coding dan pemeliharaan kode untuk pengembangan selanjutnya. Sehingga <i><strong>Assembly Language</strong></i> lebih digunakan untuk optimasi bagian tertentu didalam sebuah aplikasi untuk kecepatan dan akses secara langsung kedalam <i><strong>Hardware Computer</strong></i>. Dibawah ini adalah sebuah table yang membandingkan penyesuaian implementasi <i><strong>Assembly Language</strong></i> ke <i><strong>High Level Language Programming</strong></i> dari segi perbedaan tipe dalam pengaplikasianya.</p>
 
 
-| Tables        | Are           | Cool  |
+| Type of Application        | High Level Language           | Assembly Language  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Komersil, Scientific Application, Single Platform, medium to large size      | Lebih Powerful untuk digunakan, sehingga mudah untuk mengatur dan memelihara bagian bagian kodenya meskipun ukuran kode besar| Tidak Cocok |
+| Hardware Device Driver      | Tidak Cocok karena bahasa tingkat tinggi tidak menyediakan kemampuan untuk bisa mengakses perangkat keras, jikalaupun bisa akan menggunakan cara yang tidak disarankan yang dapat mempersulit proses pemeliharaan lebih lanjut.      |   Sangat powerful karena mampu mengakses perangkat keras secara langsung dengan mudah. Mudah sekali dikelola jika ukuran program kecil dan didokumentasikan dengan baik. |
+| Komersil, Scientific Application, Multiple Platform | Portable, source code bisa dikompilasi ulang untuk setiap sistem operasi dengan perubahan yang minim      |    Tidak Portable, code harus dibuat lagi khusus untuk setiap platform menggunakan assembler yang berbeda beda sehingga sulit sekali untuk dikelola |
+| Embedded System dan game komputer | Kemungkinan besar akan menghasilkan kode dalam ukuran yang sangat besar dan tak sanggup untuk ditampung kedalam memory.      |    Ideal sebab executable code ukuranya kecil dan dapat berjalan dengan cepat. |
 
 <i><strong></strong></i>
 
